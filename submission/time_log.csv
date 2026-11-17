@@ -1,2 +1,3 @@
 step,images,minutes,note
 gold_manual,4,16,gán tay thủ công 
+batch_review,24,48,Duyệt và sửa nhãn 24 ảnh batch trong CVAT.

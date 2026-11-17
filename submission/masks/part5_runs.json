@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "name": "case01_tuktuk_img013",
+      "image": "img_013.jpg",
+      "target": "three_wheeler",
+      "annotation_id": 115,
+      "pos": [
+        "400,480",
+        "600,110"
+      ],
+      "neg": [
+        "720,300"
+      ],
+      "box": null,
+      "source": "guide_example_and_reviewed_annotation",
+      "sam": "sam2.1_b.pt",
+      "device": "cpu",
+      "positive_clicks": 2,
+      "negative_clicks": 1,
+      "total_clicks": 3,
+      "mask_area_px": 317255,
+      "mask_image_percent": 45.4,
+      "polygons": 1,
+      "wall_seconds_including_process_startup": 11.59,
+      "image_size": [
+        1024,
+        682
+      ],
+      "output": "submission/masks/case01_tuktuk_img013.jpg",
+      "argv": [
+        "python",
+        "scripts/sam2_points.py",
+        "--image",
+        "img_013.jpg",
+        "--pos",
+        "400,480",
+        "--pos",
+        "600,110",
+        "--neg",
+        "720,300",
+        "--sam",
+        "sam2.1_b.pt",
+        "--device",
+        "cpu",
+        "--out",
+        "submission/masks",
+        "--name",
+        "case01_tuktuk_img013"
+      ],
+      "human_review": "completed",
+      "human_observation": "Theo nhận xét của học viên: mask bám sát vật, thiếu vài pixel nhỏ; không thấy dính nền, người hoặc hàng hóa.",
+      "human_observation_source": "student_confirmation"
+    },
+    {
+      "name": "case02_three_wheeler_img004",
+      "image": "img_004.jpg",
+      "target": "three_wheeler",
+      "annotation_id": 24,
+      "pos": [
+        "654,413"
+      ],
+      "neg": [
+        "480,362"
+      ],
+      "box": "474.04,230,834.61,596.88",
+      "source": "reviewed_annotation",
+      "sam": "sam2.1_b.pt",
+      "device": "cpu",
+      "positive_clicks": 1,
+      "negative_clicks": 1,
+      "total_clicks": 2,
+      "mask_area_px": 93041,
+      "mask_image_percent": 13.3,
+      "polygons": 1,
+      "wall_seconds_including_process_startup": 8.62,
+      "image_size": [
+        1024,
+        682
+      ],
+      "output": "submission/masks/case02_three_wheeler_img004.jpg",
+      "argv": [
+        "python",
+        "scripts/sam2_points.py",
+        "--image",
+        "img_004.jpg",
+        "--pos",
+        "654,413",
+        "--neg",
+        "480,362",
+        "--box",
+        "474.04,230,834.61,596.88",
+        "--sam",
+        "sam2.1_b.pt",
+        "--device",
+        "cpu",
+        "--out",
+        "submission/masks",
+        "--name",
+        "case02_three_wheeler_img004"
+      ],
+      "human_review": "completed",
+      "human_observation": "Theo nhận xét của học viên: mask bám sát vật, thiếu vài pixel nhỏ; không thấy dính nền, người hoặc hàng hóa.",
+      "human_observation_source": "student_confirmation"
+    },
+    {
+      "name": "case03_person_img013",
+      "image": "img_013.jpg",
+      "target": "person",
+      "annotation_id": 113,
+      "pos": [
+        "720,300"
+      ],
+      "neg": [
+        "600,110"
+      ],
+      "box": "619.27,193.48,874.6,521.8",
+      "source": "reviewed_annotation",
+      "sam": "sam2.1_b.pt",
+      "device": "cpu",
+      "positive_clicks": 1,
+      "negative_clicks": 1,
+      "total_clicks": 2,
+      "mask_area_px": 32737,
+      "mask_image_percent": 4.7,
+      "polygons": 2,
+      "wall_seconds_including_process_startup": 8.11,
+      "image_size": [
+        1024,
+        682
+      ],
+      "output": "submission/masks/case03_person_img013.jpg",
+      "argv": [
+        "python",
+        "scripts/sam2_points.py",
+        "--image",
+        "img_013.jpg",
+        "--pos",
+        "720,300",
+        "--neg",
+        "600,110",
+        "--box",
+        "619.27,193.48,874.6,521.8",
+        "--sam",
+        "sam2.1_b.pt",
+        "--device",
+        "cpu",
+        "--out",
+        "submission/masks",
+        "--name",
+        "case03_person_img013"
+      ],
+      "human_review": "completed",
+      "human_observation": "Theo nhận xét của học viên: mask bám sát người, thiếu vài pixel nhỏ; không thấy dính nền, hàng hóa hoặc đối tượng khác.",
+      "human_observation_source": "student_confirmation"
+    }
+  ]
+}
